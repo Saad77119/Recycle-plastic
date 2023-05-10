@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Plastic Recycling website">
+    <meta name="author" content="Saad Raza">
+    <meta name="language" content="en">
+    <title>Recycle Plastic</title>
+    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <link href="./assets/css/custom.css" rel="stylesheet">
+    <link href="./assets/css/flatpicker.min.css" rel="stylesheet">
+    <link href="./assets/css/bootstrap-utilities.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/icons/css/fontawesome.css">
+    <link rel="stylesheet" href="./assets/icons/css/regular.css">
+</head>
+
+<body>
+    <!--Nav Bar Start-->
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <div class="dropdown dropstart is-mobile-view profile-dropdown">
+                    <i id="profile" data-bs-toggle="dropdown" aria-expanded="false" class="fa-regular fa-circle-user"></i>
+                    <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="profile">
+                        <li><a class="dropdown-item active" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Login</a></li>
+                    </ul>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto  mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link " href="/index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./services.html">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./about-us.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/contact-us.html">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="dropdown dropstart is-desktop-view profile-dropdown">
+                    <i id="profile" data-bs-toggle="dropdown" aria-expanded="false" class="fa-regular fa-circle-user"></i>
+                    <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="profile">
+                        <li><a class="dropdown-item" href="./dashboard/my-info.html">Profile</a></li>
+                        <li><a class="dropdown-item active" href="./login.html">Login</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </section>
+    <!--Nav Bar End-->
+    <!--Banner Start-->
+    <section>
+        <div class="row banner-section">
+            <div class="col-md-6 home-banner-section-image">
+                <img class="w-85" src="./assets/images/home.svg">
+            </div>
+            <div class="col-md-6 banner-content-section">
+                <div class="banner-content form-banner">
+                    <div class="banner-welcome-message text-align-center w-100">
+                        <h2 class="text-h4 mb-0">Login</h2>
+                        <H6 class="text-h6 text-muted">Signin to continue
+                        </H6>
+                    </div>
+
+                    <div class="row w-100">
+                        <div class="mb-1">
+                            <label class="form-label" for="email">Email</label>
+                            <input type="email" class="form-control form-control-lg" id="email" placeholder="Enter email" />
+                        </div>
+                    </div>
+                    <div class="row w-100">
+                        <div class="mb-1">
+                            <label class="form-label" for="password">Password</label>
+                            <input type="password" class="form-control form-control-lg" id="password" placeholder="Enter Password" />
+                        </div>
+
+                    </div>
+                    <div class="row btn-auth">
+                        <a class="btn btn-primary-gradient btn-auth-action" href="#">Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Banner End-->
+    <script src="./assets/js/bootstrap.js "></script>
+    <script src="./assets/js/flatPicker.min.js "></script>
+    <script src="./assets/js/popper.js "></script>
+</body>
+
+</html>
